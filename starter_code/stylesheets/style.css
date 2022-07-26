@@ -5,3 +5,818 @@ main-titles dark-grey: #2C303F;
 paragraph grey: #5b5e6d;
 nav grey: #5b5e6d;
 */
+
+
+
+@media only screen and (max-width: 768px)  {
+
+    body{
+        font-size: 10px;
+
+    }
+
+ 
+
+    nav{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    
+    position: sticky;
+    top: 0;
+    left: 0;
+    background-color: white;
+
+    border-bottom: 2px rgb(163, 158, 158) solid;
+
+    
+}
+
+    #logo > img{
+    width: 150px;
+    height: 70px;
+    padding-left: 15px;
+
+    margin-right: 1%;
+
+}
+
+    
+/* Style The Dropdown Button */
+.dropbtn {
+    background-color: #0a0d0a;
+    color: white;
+    padding: 10px;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+    
+
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    margin-right: 15px;
+    
+
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #f1f1f1}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+
+  header{
+    display: flex;
+    flex-direction: column;
+    padding: 4%;
+
+  }
+
+  header >h1{
+    font-weight: 800;
+    font-size: 3.8rem;
+    line-height: 60px;
+  }
+
+  header>p{
+    font-size: 2rem;
+    margin-top: 0%;
+  }
+
+  #first-button-series>input[type="email"]{
+    padding: 10px;
+    font-size: 2rem;
+    font-weight: 100;
+    color: gray;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 25px;
+
+    width: 93%;
+}
+
+#first-button-series>button{
+    background-color: rgba(34, 36, 180, 0.852);
+}
+
+#first-button-series>button[type="button"]{
+    padding: 25px;
+    font-size: 1.5rem;
+    font-weight: 100;
+    color: white;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+
+    width: 100%;
+   
+}
+
+header>span{
+    color:grey;
+    font-size: 1.2rem;
+
+
+    padding-left: 20%;
+    margin-top: 25px;
+
+
+}
+
+header a{
+    color:rgb(8, 34, 93);
+}
+
+header > img{
+    width:100%;
+    margin-top: 15%;
+}
+
+
+
+main{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0px;
+
+}
+
+
+
+
+#center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color:#F5F5F5;
+
+
+
+}
+
+#introduction{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#introduction h2{
+    font-size: 1.8rem;
+    margin-top: 5%;
+
+}
+
+#introduction p{
+    font-size: 1.4rem;
+    padding-left: 10%;
+    padding-right: 10%;
+
+    text-align: center;
+    margin-top: 0%;
+
+}
+
+#introduction>button{
+    padding: 25px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: blue;
+    border: 1px solid blue;
+    border-radius: 10px;
+
+    background-color: white;
+
+    width: 80%;
+}
+
+#gallery{
+    display: flex;
+    flex-direction: column;
+}
+
+#gallery img{
+    width: 300px;
+    height: 50px;
+    margin-top: 30px;
+    padding: 30px;
+    border-top: 2px hsl(0deg 0% 93%) solid;
+
+}
+
+#try-for-free{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+#try-for-free h2{
+    font-size: 2rem;
+    margin-bottom: 5px;
+}
+
+#try-for-free span{
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+
+#try-for-free a{
+    color: blue;
+}
+
+#try-for-free>input[type="email"]{
+    padding: 20px;
+    font-size: 2rem;
+    font-weight: 100;
+    color: gray;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 25px;
+    margin-top: 20px;
+    width: 80%;
+
+}
+
+
+#try-for-free>button{
+    background-color: rgba(34, 36, 180, 0.852);
+}
+
+#try-for-free>button[type="button"]{
+    padding: 25px;
+    font-size: 1.5rem;
+    font-weight: 100;
+    color: white;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+
+    width: 90%;
+   
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.head-li{
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #70737e;
+}
+
+footer ul{
+    list-style: none;
+    color: #7f818a;
+    font-size: 1rem;
+    width: 50%;
+
+}
+
+
+footer ul li{
+    padding:5px;
+}
+
+#footer1{
+    display: flex;
+    flex-direction: row;
+
+
+}
+
+#footer2{
+    display: flex;
+    flex-direction: row;
+
+}
+
+#footer-of-footer{
+    display: flex;
+    flex-direction: column;
+    background-color: #F5F5F5;
+
+}
+
+#footer3{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+
+
+}
+
+#footer3 ul{
+    width: 80%;
+    display: flex;
+    justify-content:space-around;
+    
+    font-weight: 800;
+}
+
+#footer4{
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+
+#footer4 img{
+    width: 5%;
+}
+
+#footer4 span{
+    margin-left: 2%;
+    margin-right: 2%;
+
+    color: #7f818a;
+    font-weight: 800;
+    font-size: 1rem;
+}
+
+#footer5{
+
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+#footer5 i{
+  
+    color:grey;
+    padding: 15px;
+}
+
+
+}
+
+
+/* Second ONE */  
+
+
+@media only screen and (min-width:767px ) and (max-width: 961px)  {
+
+
+
+    body{
+        font-size: 10px;
+        padding-left: 30px;
+        padding-right: 30px;
+
+    }
+
+    img{
+        width: 85px;
+        height: 100%;
+    }
+
+
+    nav{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    
+    position: sticky;
+    top: 0;
+    left: 0;
+    background-color: white;
+
+    border-bottom: 2px rgb(163, 158, 158) solid;
+
+    
+}
+
+    #logo > img{
+    width: 200px;
+    height: 100px;
+    padding-left: 35px;;
+
+}
+
+    
+/* Style The Dropdown Button */
+.dropbtn {
+    background-color: #0a0d0a;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    
+
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    margin-right: 15px;
+    
+
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #f1f1f1}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+
+  header{
+    display: flex;
+    flex-direction: column;
+
+  }
+
+  header >h1{
+    font-weight: 800;
+    font-size: 3.8rem;
+    line-height: 60px;
+  }
+
+  header>p{
+    font-size: 2rem;
+    margin-top: 0%;
+  }
+
+
+  header div{
+    display: flex;
+    flex-direction: row;
+    justify-content:left;
+}
+
+#first-button-series>input[type="email"]{
+    padding: 10px;
+    font-size: 2rem;
+    font-weight: 100;
+    color: gray;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 10px;
+    width: 55%;
+}
+
+#first-button-series>button{
+    background-color: rgba(34, 36, 180, 0.852);
+    width: 20%;
+}
+
+#first-button-series>button[type="button"]{
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 20px;
+    padding-bottom:20px ;
+    font-size: 1.rem;
+    font-weight: 100;
+    color: white;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+
+   
+}
+
+header>span{
+    color:grey;
+    font: 400;
+    font-size: 2rem;
+
+
+    margin-top: 25px;
+
+
+}
+
+header a{
+    color:rgb(8, 34, 93);
+}
+
+header > img{
+    width:100%;
+    margin-top: 15%;
+}
+
+/* SECOND SECTION */
+
+
+main{
+    display: flex;
+    flex-direction: column;
+}
+
+
+#center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    background-color:#F5F5F5;
+
+}
+
+
+#introduction{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#introduction h2{
+    font-size: 1.8rem;
+    margin-top: 5%;
+
+}
+
+#introduction p{
+    font-size: 1.6rem;
+
+    margin-top: 0%;
+    text-align: center;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+#introduction>button{
+    padding: 25px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: blue;
+    border: 1px solid blue;
+    border-radius: 10px;
+
+    background-color: white;
+
+    width: 40%;
+}
+
+#gallery{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width:100%;
+
+    border:  2px hsl(0deg 0% 93%) solid;
+
+
+}
+
+#gallery img{
+    width: 40%;
+    margin-top: 30px;
+    padding: 30px;
+    
+    border-right: 2px hsl(0deg 0% 93%) solid;
+
+
+}
+
+#try-for-free{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    margin-top: 5%;
+    margin-bottom: 5%;
+
+    padding: 5%;
+    
+}
+
+#sign-in-tryout{
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+    
+    width: 60%;
+    
+    margin-right: 3%;
+}
+
+#sign-in-tryout h2{
+    font-size: 2rem;
+    margin-bottom: 5px;
+}
+
+#sign-in-tryout span{
+    font-size: 1rem;
+}
+
+#sign-in-tryout a{
+    color: blue;
+}
+
+#try-for-free>input[type="email"]{
+    padding: 20px;
+    font-size: 1rem;
+    font-weight: 100;
+    color: gray;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 40%;
+
+}
+
+
+#try-for-free>button{
+    background-color: rgba(34, 36, 180, 0.852);
+}
+
+#try-for-free>button[type="button"]{
+    padding: 12px;
+    font-size: 1rem;
+    font-weight: 100;
+    color: white;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+
+    margin-left: 1%;
+    margin-right: 1%;
+
+    width: 20%;
+   
+}
+
+
+/** FOOOTER **/
+
+footer{
+    display: flex;
+    flex-direction: column;
+
+    border-top: 2px hsl(0deg 0% 93%) solid;
+
+
+}
+
+#all-footers{
+
+    display: flex;
+    flex-direction: row;
+
+}
+
+
+
+.head-li{
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #70737e;
+}
+
+footer ul{
+    list-style: none;
+    color: #7f818a;
+    font-size: 1rem;
+    width: 50%;
+
+}
+
+
+footer ul li{
+    padding:5px;
+}
+
+#footer1{
+    display: flex;
+    flex-direction: row;
+
+
+}
+
+#footer2{
+    display: flex;
+    flex-direction: row;
+
+}
+
+
+#footer-of-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    background-color:#F5F5F5;
+    padding: 2%;
+
+
+
+    }
+    
+
+#footer3{
+    display: flex;
+    flex-direction: row;
+    background-color:#F5F5F5;
+
+    width: 70%;
+
+}
+
+#footer3 ul{
+    display: flex;    
+    flex-direction: row;
+    font-weight: 800;
+
+    width: 100%;
+}
+
+
+#footer4{
+    display: flex;
+    flex-direction: row;
+    
+    width: 30%;
+}
+
+
+#footer4 img{
+    width: 10%;
+    height: 12%;
+}
+
+#footer4 span{
+    margin-left: 2%;
+    margin-right: 2%;
+
+    color: #7f818a;
+    font-weight: 800;
+    font-size: 1rem;
+}
+
+#footer5{
+
+    display: flex;
+    flex-direction: row;
+
+}
+
+#footer5 i{
+    margin: 10px;
+    margin-top: 25px;
+    color:grey
+}
+
+
+}
